@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    margin: 20px auto;
+    background-color: #7ee8fa;
+    font-family: 'Montserrat', sans-serif;
+}
+#contenedor-1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#header{
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo #header-img{
+    width: 100px;
+}
+#header #nav-bar{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#header #nav-bar .nav-link{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+header #nav-bar .nav-link:hover{
+    background-color:white;
+}
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+}
+#contenedor-2{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article h1{
+    width: 100%;
+    text-align:center;
+    line-height: 1.5;
+}
+article h1 #parrafo{
+    width: 100%;
+    text-align:center;
+    line-height: 1.5;
+}
+#juego{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#juego #title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#juego #resultado{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: tomato;
+}
+#juego #form{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#juego #form #boton{
+    width: 60px;
+    height: 50px;
+    margin: 15px;
+    border: 2px solid black;
+    background: white;
+
+}
+#juego #form #boton:hover{
+    background-color: tomato;
+}
+#video{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#video iframe{
+    width: 560px;
+    height: 315px;
+    margin: 10px;
+    padding: 5px;
+}
+footer{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer #redes a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+footer a:hover{
+    background-color:white;
+}
